@@ -110,6 +110,22 @@ h1, h2, h3 {
 .feature-card:hover .feature-icon {
     transform: scale(1.12) rotate(-4deg);
 }
+/* ---- Tarjetas clicables (por que aprender / categorias) ---- */
+.feature-clicable {
+    cursor: pointer;
+}
+.feature-chevron {
+    color: #adb5bd;
+    transition: transform .2s ease;
+}
+.feature-clicable[aria-expanded="true"] .feature-chevron {
+    transform: rotate(180deg);
+    color: var(--acento-color, #7c3aed);
+}
+.feature-activa {
+    border: 2px solid var(--acento-color, #7c3aed);
+    box-shadow: 0 .5rem 1.25rem rgba(124, 58, 237, .15);
+}
 /* Variantes de color (misma familia morada/indigo para mantener coherencia) */
 .accent-1 { --acento-color: #7c3aed; --acento-fondo: #ede9fe; }
 .accent-2 { --acento-color: #6366f1; --acento-fondo: #e0e7ff; }

@@ -21,7 +21,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold text-primary" href="index.jsp">
-        <i class="bi bi-robot"></i> IA Generativa
+        <i class="bi bi-robot"></i> IA Generativa Murillo
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
       <span class="navbar-toggler-icon"></span>
