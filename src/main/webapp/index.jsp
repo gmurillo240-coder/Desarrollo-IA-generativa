@@ -196,7 +196,7 @@
             i++;
 %>
     <div class="col-md-3 col-6 fade-in <%= claseDelay %>">
-        <a href="index.jsp?categoria=<%= idCat %>#resultados" class="text-decoration-none text-reset d-block h-100">
+        <a href="index.jsp?categoria=<%= idCat %>#categorias" class="text-decoration-none text-reset d-block h-100">
             <div class="feature-card <%= claseAcento %> feature-clicable <%= activa ? "feature-activa" : "" %>">
                 <div class="feature-icon"><i class="bi bi-<%= rs.getString("icono") %>"></i></div>
                 <h3 class="h6 mb-1"><%= rs.getString("nombre") %></h3>

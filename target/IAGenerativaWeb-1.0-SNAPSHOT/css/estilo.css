@@ -298,6 +298,11 @@ h1, h2, h3 {
     font-weight: 500;
 }
 
+/* ---- Evita que el acordeon "salte" bruscamente al abrir/cerrar ---- */
+.collapsing {
+    transition: height .12s ease !important;
+}
+
 /* ---- Botones con transición suave ---- */
 .btn {
     transition: transform .15s ease, box-shadow .15s ease;
