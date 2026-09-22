@@ -14,7 +14,7 @@ import java.sql.SQLException;
 public class ConexionBD {
 
     private static final String URL =
-        "jdbc:mysql://localhost:3306/ia_generativa?useSSL=false&serverTimezone=America/Mexico_City";
+        "jdbc:mysql://localhost:3306/ia_generativa?useSSL=false&serverTimezone=America/Mexico_City&characterEncoding=UTF-8&useUnicode=true";
     private static final String USUARIO = "root";
     private static final String PASSWORD = "";
 
